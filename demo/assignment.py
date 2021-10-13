@@ -1,5 +1,3 @@
-# Copyright (c) OpenMMLab. All rights reserved.
-#new_new
 import os
 import warnings
 from argparse import ArgumentParser
@@ -10,7 +8,6 @@ import numpy as np
 from PIL import Image
 import shutil
 import os
-
 import cv2
 
 blackblankimage = 255 * np.zeros((1080,1920,3), np.uint8)
@@ -36,12 +33,6 @@ def FrameCapture(path, vid):
             count += 1
         except:
             break
-
-
-
-
-
-
 
 from mmpose.apis import (get_track_id, inference_top_down_pose_model,
                          init_pose_model, process_mmdet_results,
@@ -183,10 +174,10 @@ def main():
     next_id = 0
     pose_results = []
 
-    cap1 = cv2.VideoCapture("/content/drive/MyDrive/1__.mp4")
-    cap2 = cv2.VideoCapture("/content/drive/MyDrive/2__.mp4")
-    cap3 = cv2.VideoCapture("/content/drive/MyDrive/3__.mp4")
-    cap4 = cv2.VideoCapture("/content/drive/MyDrive/4__.mp4")
+    cap1 = cv2.VideoCapture("demo/resources/1.mp4")
+    cap2 = cv2.VideoCapture("demo/resources/2.mp4")
+    cap3 = cv2.VideoCapture("demo/resources/3.mp4")
+    cap4 = cv2.VideoCapture("demo/resources/4.mp4")
 
     caps = [cap1, cap2, cap3, cap4]
 
@@ -273,5 +264,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
