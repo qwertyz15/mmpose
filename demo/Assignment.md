@@ -24,7 +24,7 @@ cd ..
 
 ### Execution
 
-First need to clone the codebase.
+First need to clone the updated codebase. You can find the orginal codebase is [here](https://github.com/open-mmlab/mmpose.git)
 ```
 git clone https://github.com/qwertyz15/mmpose.git
 ```
