@@ -40,4 +40,6 @@ python3 demo/assignment.py \
     --out-video-root visNew_results
 %cd ..
 ```
+### Output
+The output video of the program will be saved in <b>visNew</b> folder as <b>output.mp4</b>
 
