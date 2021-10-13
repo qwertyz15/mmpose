@@ -52,6 +52,3 @@ Here are some snaps of the output video.
 ![alt text](https://github.com/qwertyz15/mmpose/blob/master/demo/resources/ss_2.png?raw=true)
 
 ![alt text](https://github.com/qwertyz15/mmpose/blob/master/demo/resources/ss_1.png?raw=true)
-
-
-![Alt Text](https://drive.google.com/file/d/14duL3v8Dvq6mEE9FE2qZnsf09kBg54-S/view)
