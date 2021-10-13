@@ -25,7 +25,7 @@ git clone https://github.com/qwertyz15/mmpose.git
 ```
 Then we can able to run the program through this command
 ```
-%cd mmpose/
+cd mmpose/
 python3 demo/assignment.py \
     demo/mmdetection_cfg/faster_rcnn_r50_fpn_coco.py \
     https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_1x_coco/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth \
