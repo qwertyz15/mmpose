@@ -16,3 +16,11 @@ pip3 install -r requirements/build.txt
 pip3 install -v -e .  # or "python setup.py develop"
 cd ..
 ```
+
+### Execution
+
+First need to clone the codebase.
+```
+git clone https://github.com/qwertyz15/mmpose.git
+```
+
