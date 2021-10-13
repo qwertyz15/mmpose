@@ -36,10 +36,10 @@ python3 demo/assignment.py \
     https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_1x_coco/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth \
     configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/res50_coco_256x192.py \
     https://download.openmmlab.com/mmpose/top_down/resnet/res50_coco_256x192-ec54d7f3_20200709.pth \
-    --video-path demo/resources/output.mp4 \
+    --video-path demo/resources/passed.mp4 \
     --out-video-root visNew_results
-%cd ..
+cd ..
 ```
 ### Output
-The output video of the program will be saved in <b>visNew_results</b> folder as <b>vis_output.mp4</b>.
+The output video of the program will be saved ``` <b>/mmpose/visNew_results/vis_passed.mp4</b> ```
 
