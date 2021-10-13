@@ -24,11 +24,11 @@ cd ..
 
 ### Execution
 
-First need to clone the updated codebase. You can find the orginal codebase is [here](https://github.com/open-mmlab/mmpose.git)
+First need to clone the updated codebase. You can find the orginal codebase is [here](https://github.com/open-mmlab/mmpose.git).
 ```
 git clone https://github.com/qwertyz15/mmpose.git
 ```
-Then we can able to run the program through this command
+Then we can able to run the program through this command.
 ```
 cd mmpose/
 python3 demo/assignment.py \
