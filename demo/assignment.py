@@ -65,16 +65,16 @@ def main():
     vid3 = [] 
     vid4 = []
 
-    t1 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/1_.mp4",vid1) , name = 't1')
-    t2 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/2_.mp4",vid2), name = 't2')
-    t3 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/3_.mp4",vid3), name = 't3')
-    t4 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/4_.mp4",vid4), name = 't4')
+#     t1 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/1_.mp4",vid1) , name = 't1')
+#     t2 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/2_.mp4",vid2), name = 't2')
+#     t3 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/3_.mp4",vid3), name = 't3')
+#     t4 = threading.Thread(target=FrameCapture, args=("/content/drive/MyDrive/4_.mp4",vid4), name = 't4')
 
-    t1.start(), t2.start(), t3.start(), t4.start()
-    t1.join(), t2.join(), t3.join(), t4.join()
+#     t1.start(), t2.start(), t3.start(), t4.start()
+#     t1.join(), t2.join(), t3.join(), t4.join()
 
-    l = [len(vid1), len(vid2), len(vid3), len(vid4)]
-    mx = max(l)
+#     l = [len(vid1), len(vid2), len(vid3), len(vid4)]
+#     mx = max(l)
 
     blackblankimage = 255 * np.zeros((1080,1920,3), np.uint8)
 
