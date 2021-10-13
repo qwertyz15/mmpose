@@ -42,5 +42,14 @@ cd ..
 ```
 ### Output
 The output video of the program will be saved ``` visNew_results/vis_passed.mp4 ``` here.
+
+Here are some snaps of the output video.
+
 ![alt text](https://github.com/qwertyz15/mmpose/blob/master/demo/resources/ss_4.png?raw=true)
+
+![alt text](https://github.com/qwertyz15/mmpose/blob/master/demo/resources/ss_3.png?raw=true)
+
+![alt text](https://github.com/qwertyz15/mmpose/blob/master/demo/resources/ss_2.png?raw=true)
+
+![alt text](https://github.com/qwertyz15/mmpose/blob/master/demo/resources/ss_1.png?raw=true)
 
