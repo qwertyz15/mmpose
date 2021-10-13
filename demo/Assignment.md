@@ -41,5 +41,5 @@ python3 demo/assignment.py \
 cd ..
 ```
 ### Output
-The output video of the program will be saved ``` <b>/mmpose/visNew_results/vis_passed.mp4</b> ```
+The output video of the program will be saved ``` visNew_results/vis_passed.mp4 ``` here.
 
