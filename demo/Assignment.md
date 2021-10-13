@@ -24,7 +24,7 @@ cd ..
 
 ### Execution
 
-First we  need to clone the updated codebase. If you have something called mmpose in your working directory, please rename it. Otherwise, the updated codebase will not be cloned.
+First we  need to clone the updated codebase. If you have something called mmpose already in your working directory, please rename it. Otherwise, the updated codebase will not be cloned.
 ```
 git clone https://github.com/qwertyz15/mmpose.git
 ```
