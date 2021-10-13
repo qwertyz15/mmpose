@@ -5,7 +5,7 @@
 * mmdetection
 ```
 pip3 install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
-git clone https://github.com/qwertyz15/mmpose.git
+git clone https://github.com/open-mmlab/mmpose.git
 cd mmpose/
 pip3 install -r requirements.txt
 pip3 install -v -e .  # or "python setup.py develop"
