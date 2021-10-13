@@ -37,11 +37,11 @@ python3 demo/assignment.py \
     configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/res50_coco_256x192.py \
     https://download.openmmlab.com/mmpose/top_down/resnet/res50_coco_256x192-ec54d7f3_20200709.pth \
     --video-path demo/resources/passed.mp4 \
-    --out-video-root visNew_results
+    --out-video-root task_output_video
 cd ..
 ```
 ### Output
-The output video of the program will be saved ``` visNew_results/vis_passed.mp4 ``` here.
+The output video of the program will be saved ``` task_output_video/vis_passed.mp4 ``` here.
 
 Here are some snaps of the output video.
 
