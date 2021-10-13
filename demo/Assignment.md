@@ -41,5 +41,5 @@ python3 demo/assignment.py \
 %cd ..
 ```
 ### Output
-The output video of the program will be saved in <b>visNew</b> folder as <b>output.mp4</b>
+The output video of the program will be saved in <b>visNew_results</b> folder as <b>output.mp4</b>
 
