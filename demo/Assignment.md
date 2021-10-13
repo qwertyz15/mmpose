@@ -23,4 +23,16 @@ First need to clone the codebase.
 ```
 git clone https://github.com/qwertyz15/mmpose.git
 ```
+Then we can able to run the program through this command
+```
+%cd mmpose/
+python3 demo/assignment.py \
+    demo/mmdetection_cfg/faster_rcnn_r50_fpn_coco.py \
+    https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_1x_coco/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth \
+    configs/body/2d_kpt_sview_rgb_img/topdown_heatmap/coco/res50_coco_256x192.py \
+    https://download.openmmlab.com/mmpose/top_down/resnet/res50_coco_256x192-ec54d7f3_20200709.pth \
+    --video-path demo/resources/passed.mp4 \
+    --out-video-root visNew_results
+%cd ..
+```
 
